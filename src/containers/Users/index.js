@@ -17,6 +17,7 @@ import { useNavigate } from 'react-router-dom'
 const Users = () => {
   // const users = []
   const [users, setUsers] = useState([])
+  console.log(users)
 
   const navigate = useNavigate()
 
@@ -24,16 +25,16 @@ const Users = () => {
 
 
   useEffect(() => {
-    const fethUsers = async () => {
-      const { data: newUsers } = await axios.get('https://back-end-users-node.vercel.app/users')
+    const fetchUsers = async () => {
+      const { data: newUsers } = await axios.get('http://localhost:3001/users')
       setUsers(newUsers)
     }
-    fethUsers()
+    fetchUsers()
   }, []);
 
 
   const deleteUser = async (userId) => {
-    await axios.delete(`https://back-end-users-node.vercel.app/users/${userId}`)
+    await axios.delete(`http://localhost:3001/users/${userId}`)
     const newUsers = users.filter(user => user.id !== userId)
     setUsers(newUsers)
   }
@@ -60,9 +61,7 @@ const Users = () => {
               <p>{user.name}</p><p>{user.age}</p>
               <button onClick={() => deleteUser(user.id)}><img src={Trash} alt='delete-user' /></button>
             </User>
-          ))
-
-          }
+          ))}
 
         </ul>
         <Button onClick={goBackPage} > <img src={Arrow} alt="seta-button" />Voltar</Button>

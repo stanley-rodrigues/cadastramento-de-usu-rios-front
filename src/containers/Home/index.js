@@ -24,8 +24,9 @@ const App = () => {
 
   const addNewUser = async () => {
 
-    const { data: newUser } = await axios.post('https://back-end-users-node.vercel.app/users', { name: inputName.current.value, age: inputAge.current.value })
+    const { data: newUser } = await axios.post('http://localhost:3001/users', { name: inputName.current.value, age: inputAge.current.value })
     setUsers([...users, newUser])
+    console.log(newUser)
 
     navigate('/usuarios')
   }
