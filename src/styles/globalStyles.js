@@ -9,8 +9,4 @@ export default createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         text-decoration: none;
     }
-
-    html {
-        font-size: 62.5%;
-    }
 `;

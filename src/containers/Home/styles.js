@@ -7,12 +7,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:2rem;
+    gap:40px;
     height: 100vh;
 
 `
 export const Image = styled.img`
-    margin-top: 2rem;
+    margin-top: 30px;
 `
 export const ContainerItens = styled.div`
     background: linear-gradient(
@@ -20,11 +20,10 @@ export const ContainerItens = styled.div`
         0.84%,rgba(255, 255, 255, 0.6) 
         0.85% , rgba(255, 255, 255, 0.15) 100% );
 
-    border-radius: 6.1rem 6.1rem 0rem 0rem;
-    padding: 5rem 3.6rem;
+    border-radius: 61px 61px 0px 0px;
+    padding: 50px 36px;
     display: flex;
     flex-direction: column;
-    width: 41rem;
     height: 100vh;
 `
 
@@ -32,11 +31,11 @@ export const H1 = styled.h1`
 
 font-style: normal;
 font-weight: 700;
-font-size: 3.4rem;
-line-height: 4rem;
+font-size: 34px;
+line-height: 40px;
 text-align: center;
 color: #FFFFFF;
-margin-bottom: 2.4rem;
+margin-bottom: 80px;
 `
 
 export const InputLabel = styled.p`
@@ -44,49 +43,49 @@ export const InputLabel = styled.p`
     color: #EEEEEE;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-    margin-left: 2.5rem;
-    margin-bottom: 0.2rem;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 25px;
+    margin-bottom: 2px;
     
 `
 
 export const Input = styled.input`
     background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    border-radius: 1.4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
     border: none;
     outline: none;
-    width: 34.2rem;
-    height: 5.8rem;
-    padding-left: 2.5rem;
+    width: 342px;
+    height: 58px;
+    padding-left: 25px;
     font-style: normal;
     font-weight: 400;
-    font-size: 2.4rem;
-    line-height: 2.8rem;
+    font-size: 20px;
+    line-height: 28px;
     color: #ffffff;
-    margin-bottom: 3rem;
+    margin-bottom: 34px;
 
 `
 
 export const Button = styled.button`
 
-    width: 34.2rem;
-    height: 7.4rem;
-    margin-top: 13rem;
+    width: 342px;
+    height: 74px;
+    margin-top: 13px;
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 1.4rem;
+    border-radius: 14px;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.7rem;
-    line-height: 2.8rem;
+    font-size: 17px;
+    line-height: 28px;
     border: none;
     color: #FFFFFF;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 20px;
     
 
     &:hover {

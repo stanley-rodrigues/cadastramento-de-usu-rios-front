@@ -8,57 +8,56 @@ export const Container = styled.div `
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:2rem;
+    gap:20px;
     height: 100%;
     min-height: 100vh;
 
 `
 export const Image = styled.img `
-    margin-top: 2rem;
+    margin-top: 20px;
 `
 export const ContainerItens = styled.div `
     background: linear-gradient(
         157.44deg, rgba(255, 255, 255, 0.6) 
         0.84%,rgba(255, 255, 255, 0.6) 
         0.85% , rgba(255, 255, 255, 0.15) 100% );
-    backdrop-filter: blur(4.3rem);
-    border-radius: 6.1rem 6.1rem 0rem 0rem;
-    padding: 5rem 3.6rem;
+    backdrop-filter: blur(43px);
+    border-radius: 61px 61px 0px 0px;
+    padding: 50px 36px;
     display: flex;
     flex-direction: column;
-    width: 41rem;
     height: 100%;
-    min-height: calc(100vh - 14rem);
+    min-height: calc(100vh - 14px);
 `
 
 export const H1 = styled.h1 `
 
 font-style: normal;
 font-weight: 700;
-font-size: 3.4rem;
-line-height: 4rem;
+font-size: 34px;
+line-height: 40px;
 text-align: center;
 color: #FFFFFF;
-margin-bottom: 2.4rem;
+margin-bottom: 24px;
 `
 export const Button = styled.button`
 
-    width: 34.2rem;
-    height: 7.4rem;
-    margin-top: 12rem;
+    width: 342px;
+    height: 74px;
+    margin-top: 12px;
     background: transparent;
-    border-radius: 1.4rem;
+    border-radius: 14px;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.7rem;
-    line-height: 2.8rem;
-    border: 0.1rem solid white;
+    font-size: 17px;
+    line-height: 28px;
+    border: 1px solid white;
     color: #FFFFFF;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 20px;
     
 
     &:hover {
@@ -82,20 +81,20 @@ export const User = styled.li`
     justify-content: space-around;
     align-items: center;
     background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    border-radius: 1.4rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
     border: none;
     outline: none;
-    width: 34.2rem;
-    height: 5.8rem;
-    padding-left: 2.5rem;
-    margin-top: 2.8rem;
+    width: 342px;
+    height: 58px;
+    padding-left: 25px;
+    margin-top: 28px;
 
     p {
         font-style: normal;
         font-weight: 400;
-        font-size: 2.4rem;
-        line-height: 2.8rem;
+        font-size: 24px;
+        line-height: 28px;
         color: #ffffff;
         
     }
